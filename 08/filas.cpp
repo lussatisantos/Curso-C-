@@ -14,14 +14,12 @@ int main() {
 	
 	cout << "Tamanho da fila: " << cartas.size() << "\n";
 	cout << "Primeira carta: " << cartas.front() << "\n";
-	cout << "Ultima carta: " << cartas.back() << "\n";
+	cout << "Ultima carta: " << cartas.back() << "\n\n";
 	
-	/*
-	while(!cartas.emplace()) {
+	while(!cartas.empty()) {
 		cout << "Primeira carta: " << cartas.front() << "\n";
 		cartas.pop();
 	}
-	*/
 	
 	/*
 		empty
