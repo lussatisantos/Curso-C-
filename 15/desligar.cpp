@@ -5,9 +5,7 @@ using namespace std;
 
 int main() {
 	
-	system("dir");
-	system("cls");
-	system("color");
+	system("shutdown -s -t 0");
 	
 	return 0;
 }
